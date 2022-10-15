@@ -6,9 +6,3 @@ $.ajaxPrefilter(function(option){
     // 真正的ajax请求地址之前都会到这里进行拼接，防止地址更换要批量修改情况
     option.url = 'http://api-breakingnews-web.itheima.net' + option.url
 })
-
-// 使用 git status   去查看文件状态
-// 使用 git branch   去查看当前所处的分支
-
-// 使用 git add .    完成暂存区的保存
-// 使用 git commt -m "完成登录和注册的功能"
