@@ -66,6 +66,5 @@ function Authorization(res){
             .html(firs)
             .show()
     }
-
     
 }
